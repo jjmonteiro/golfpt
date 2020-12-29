@@ -1,0 +1,26 @@
+CALIBRAR MANÓMETROS ANALÓGICOS
+==============================
+
+1. Ligar o carro mas nao arrancar o motor. 
+   Com o vag-com, ir a INSTRUMENTS (17) e de seguida OUTPUT TESTS (03)
+
+2. Clicar em START/NEXT para iniciar a sequencia de testes. 
+   O primeiro desta sequência será a calibração dos manómetros analógicos.
+   As agulhas dos quatro manómetros devem descer a zero, 
+   subir ao seu máximo valor e de seguida ficar na sua posicao de calibração.
+   
+   Essas posições são:
+
+   Rotações - 3000 RPMs
+   Velocidade - 100Km/h
+   Temperatura - 90ºC
+   Combustível - 1/2 tanque
+
+Se algum destes valores estiver incorrecto existirá um erro
+no módulo de instrumentos e este deve ser substituido.
+
+3. Clicar em START/NEXT para passar aos restantes testes. 
+   Estes irão verificar as várias luzes de aviso, avisos sonoros e LCDs do módulo.
+
+4. Continuar a clicar em START/NEXT até que apareça END que assinala o fim dos testes.
+   Clicar mais uma vez e de seguida EXIT para voltar ao menu principal.

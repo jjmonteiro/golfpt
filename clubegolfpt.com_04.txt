@@ -1,0 +1,19 @@
+Mudar Linguagem do Computador de Bordo:
+
+[Select]
+[17 - Instruments]
+[Adaptation - 10]
+
+Channel Number: 04
+[Read]
+
+As linguagens disponiveis sao: 
+
+00001 - Alemao
+00002 - Ingles
+00003 - Frances
+00004 - Italiano
+00005 - Espanhol
+00006 - Portugues
+
+[Save]

@@ -1,0 +1,34 @@
+Entrar em Instrumentos(17) e Recode(07)
+De seguida intruduzir um codigo de acordo com:
+
+00xxx: No available equipment
+01xxx: Brakepad wear sensor warning activate
+02xxx: Seatbelt warning activate
+04xxx: Washer fluid level warning active
+16xxx: Navigation
+
+xx1xx: Europe (EU)		- Relogio de 24h, contagem em km
+xx2xx: USA (US)			- Relogio de 12h am/pm, contagem em milhas
+xx3xx: Canada (CDN)		- Relogio de 12h am/pm, contagem em km
+xx4xx: Great Britain (GB)	- Relogio de 24h, contagem em milhas
+xx5xx: Japan (JP)
+xx6xx: Saudi Arabia (SA)
+xx7xx: Australia (AUS)
+
+xxx0x: Vehicles w. fixed service intervals wo. oil/temp. sender
+xxx1x: Vehicles w. flexible service intervals w. oil/temp. sender
+xxx2x: Vehicles w. fixed service intervals w. oil/temp. sender
+xxx3x: No service interval
+xxx4x: 4-cylinder
+xxx5x: 5-cylinder
+xxx6x: 6-cylinder
+
+xxxx1: 4345 (Distance impulse multiplier)
+xxxx2: 3528 (Distance impulse multiplier)
+xxxx3: 4134 (Distance impulse multiplier)
+xxxx4: 3648 (Distance impulse multiplier)
+
+Para combinacoes basta somar os valores.
+Exemplo: 07xxx corresponde a 01 + 02 + 04 activar os avisos de desgaste das 
+pastilhas dos travoes, o aviso do cinto de segurança e o aviso
+de pouco liquido de limpeza do parabrisas.

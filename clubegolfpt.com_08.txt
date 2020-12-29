@@ -1,0 +1,55 @@
+
+1. Valvula EGR
+===========================
+
+A EGR, que significa 'Exaust Gas Recirculation', é um sistema que faz com
+que uma parte dos gases de escape produzidos sejam novamente introduzidos
+na admissão. Este sistema foi desenvolvido para que os veiculos pudessem
+cumprir as rigorosas normas anti-poluição actualmente em vigor. Desta
+forma, ao se reduzir a quantidade de oxigénio na combustão, também será
+libertada uma menor quantidade de gases poluentes, em detrimento das
+prestações, com combustões menos eficazes.
+Para além disto, ao serem recirculados gases de escape na admissão, vao
+fazer com que esta fique suja, levando o motor a perder eficácia 
+prematuramente.
+A quantidade de gases de escape admitida nos cilindros é inversamente
+proporcional à pressão exercida no pedal do acelerador, deste modo, 
+teremos a valvula EGR com abertura máxima ao ralenti e totalmente fechada
+quando o pedal do acelerador está completamente pressionado.
+
+
+
+2. Fechar a EGR (VAGCOM)
+===========================
+
+- Select Control Module 
+- Seleccionar 01 - Engine 
+- Seleccionar Login - 11 
+- Introduzir '12233' > 'Do it!' 
+- Seleccionar Adaptation - 10 
+- Seleccionar Channel Number '03' > 'Read' 
+- Deverá aparecer na descrição na parte de cima no 2º campo (Mass air/rev) 
+  um valor de cerca de 275/280.
+- Em New Value deverá estar '32768', introduzir o valor '33768' e fazer Test,
+  o valor 'Mass Air/Rev' deve subir para 370/380. 
+- Por fim fazer 'Save'
+
+
+
+3. Diagnóstico à EGR
+===========================
+
+- Group 003 (EGR)
+- Engine rpm: 870 - 950
+- Air mass drawn in (specified): 230 - 370 mg/H
+- Air mass drawn in (actual): 230 - 370 mg/H
+- EGR vacuum solenoid duty cycle: 40 - 75 %
+
+Se 'air mass specified' está acima de 370, o motor está muito frio.
+Se 'air mass actual' está abaixo de 230 mg/H, EGR excessiva ou fuga de ar.
+Se 'air mass actual' está acima de 370 mg/H, o motor está frio,
+EGR insuficiente, ou MAF estragada.
+
+Nota: A EGR é desligada após aproximadamente 2 minutos de inactividade.
+A leitura deve ser feita antes deste periodo.
+

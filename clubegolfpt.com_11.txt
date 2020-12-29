@@ -1,0 +1,26 @@
+AJUSTE MANÓMETRO COMBUSTÍVEL
+============================
+
+
+Este procedimento é supostamente utilizado após efectuada a troca do sensor de nível do combustivel.
+A forma correcta de calibrar o manómetro de combustivel consiste em esvaziar por completo o tanque,
+encher com 7 litros de combustivel (que é exactamente a quantidade da reserva) e então ajustar a
+agulha do manómetro de maneira que coincida com o traço vermelho de reserva do manómetro.
+
+
+Outra forma mais prática consiste em atestar completamente o tanque e ajustar a agulha ao máximo.
+O VAG-COM permite-nos ajustar a posicao da agulha em passos de aproximadamente 2 litros em cada
+direcção (+/-) do seu valor normal de fábrica. Para fazer isto faça o seguinte:
+
+
+1. Seleccionar INSTRUMENTOS (17), ADAPTATION (10)
+
+2. Em CHANNEL, intruduzir '30' e de seguida READ.
+   Isto irá mostrar o valor memorizado de calibraçao do manómetro. De fábrica será '128'.
+   Podem-se intruduzir valores de '120' a '136'. Cada unidade a mais ou a menos corresponderá a 
+   um ajuste de 1 ohm no valor de saida do sensor que equivale a 1/4 de litro na leitura.
+   Podem-se utilizar os botões UP/DOWN para ajustar os valores enquanto se observa o movimento da agulha.
+
+3. Ajustar para a posição pretendida e clicar SAVE para O novo valor ficar memorizado.
+
+

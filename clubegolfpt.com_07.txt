@@ -1,0 +1,32 @@
+REAJUSTE DA BORBOLETA DA ADMISSAO
+====================================
+
+
+1) Com o motor parado e "frio", e com a chave na posição anterior ao arranque do motor,
+liguei o carro ao computador e abri o VAG-COM; 
+
+2) No menu principal do VAG-COM carreguei no botão "Select" da secção "Select Control Module"; 
+
+3) Na janela seguinte carreguei no botão "01-Engine"; 
+
+4) Na janela seguinte carreguei no botão "Basic Settings-04"; 
+
+5) Na janela seguinte preenchi o primeiro campo "Group" com o código "060", e depois 
+carreguei no botão "Go" que existe logo ao lado; 
+
+6) Com a operação anterior apareceu-me no campo "Step Count" um dígito que foi mudando e passados 
+uns segundos parou, e quando parou, no campo "Adaption Status" apareceu o texto "ADP OK"; 
+
+7) Resultado...borboleta calibrada! 
+
+Como todos devem compreender a "receita" que aqui deixo funcionou no meu carro 
+(que é um Golf 1.4 16V, a gasolina, do ano 2002, com o código de motor AXP), 
+mas eu não posso dar garantias a ninguém que o processo seja exactamente igual, 
+e que vá funcionar bem nos vossos carros. 
+
+Um outro aspecto importante a ter em conta, é que esta "receita" não deve ser 
+utilizada em carros que ainda tenham a aceleração do motor implementada através de cabo. 
+
+
+
+elaborado por: Zarkov

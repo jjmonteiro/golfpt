@@ -1,0 +1,25 @@
+Menu 17-Painel de instrumentos 
+Recode 
+
+Aparece-nos o valor de fabrica onde podemos fazer varias alterações somando constantes. 
+Mas, para este caso, apenas precisamos de alterar o ultimo digito. 
+No meu caso, tinha o valor 4. 
+
+Alterando para um numero superior, estamos a diminuir o perimetro da roda. Alterando para um numero inferior, estamos a aumentar o perimetro da roda. 
+
+Fica aqui uma tabela com o perimetro a que corresponde cada digito: 
+
+1 - 1938 mm 
+2 - 1948 
+3 - 1958 
+4 - 1968 
+5 - 1928 
+6 - 1918 
+7 - 1908 
+
+No meu caso, tinha diminuido o 4 para 3. O velocimetro ficou a contar menos. Mas voltei a meter o 4 porque sei que com este valor o erro é minimo (ja verifiquei em banco de potencia) 
+
+Agora ja podem brincar  
+Com esta brincadeira, consegue-se por o velocimetro a contar adiantado 50 Km/h  
+
+Mas atenção: Não podemos passar, por exemplo, de 1 para 5... pelo menos eu não consegui fazer uma modificação tão grande....

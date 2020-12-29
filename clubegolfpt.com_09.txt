@@ -1,0 +1,82 @@
+=================================================
+
+Calibração do Sensor de Angulo de Direccao - ESP
+
+=================================================
+
+
+A Ross-Tech não se responsabiliza por quaisquer danos ou problemas que podem resultar de seguir 
+estas instruções. Elas devem ser utilizadas em seu próprio risco. Como sempre, você deve consultar
+o manual de reparação de fábrica do seu veículo! 
+
+Este procedimento detalha como realizar a calibração da posição zero do sensor de angulo de direccao 
+(G85) em muitos veículos Volks/Audi equipados com ESP (Electronic Stability Program).
+Este procedimento deve ser realizado quando é realizado o alinhamento da direcção do veículo ou se 
+qualquer um dos seguintes componentes foram removidos ou substituídos: 
+
+ - Unidade de controlo ABS, EDL, ASR ou ESP  (J104) 
+ - Sensor de Angulo de Direccao (G85) 
+ - Coluna de direcção 
+
+Existem determinadas condições de ensaio que devem ser cumpridas antes de executar este procedimento: 
+
+  - Ligue o veículo;
+  - Vire o volante uma volta para a direita e uma volta para a esquerda;
+  - Dirija uma curta distância em linha recta sobre uma superfície plana, a uma velocidade 
+    não superior a 20 km/h;
+  - Se o volante ficar direito durante o 'test drive' pare o veículo com as rodas a direito; 
+  - Garanta que o volante não é movido novamente; 
+  - Mantenha o motor em funcionamento e não desligue a ignição.
+
+
+================================
+================================
+
+
+Procedimento para realizar a calibração da posição zero do sensor de angulo de direccao (G85) em
+VW Golf, GTI, Jetta, and Audi TT:
+
+[Select]
+[03 - ABS Brakes] 
+[Login - 11]
+Inserir 40168
+[Do It!]
+[Basic Settings - 04]
+Group 060
+[Go!]
+
+Isto irá memorizar a posição zero (centro) da direcção. Deverá aparecer uma mensagem que diz:
+"Steer. angle sender compens OK", Se aparecer um erro deverá significar que o login não foi
+efectuado correctamente.
+
+Clicar no botão [Done, Go Back] e o processo está terminado.
+
+
+================================
+================================
+
+
+Procedimento para realizar a calibração da posição zero do sensor de angulo de direccao (G85) em
+VW Passat, Audi A4/S4, A6/S6, A8/S8:
+
+[Select]
+[03 - ABS Brakes] 
+[Login - 11]
+Enter 40168
+[Do It!]
+[Basic Settings - 04]
+Group 001
+[Go!]
+
+Isto irá memorizar a posição zero (centro) da direcção. Deverá aparecer uma mensagem que diz:
+"Steer. angle sender compens OK", Se aparecer um erro deverá significar que o login não foi
+efectuado correctamente.
+
+Clicar no botão [Done, Go Back] e o processo está terminado.
+
+
+================================
+================================
+
+
+Traduzido por: sorh

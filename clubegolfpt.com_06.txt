@@ -1,0 +1,15 @@
+[Select]
+[46 - Cent. Conv.]
+[Adaptation - 10]
+
+Channel 03 Trancar aos 20km/h
+Channel 04 Destrancar ao retirar a chave da ignicao
+Channel 05 Apitar ao destrancar c/ comando
+Channel 06 Apitar ao trancar c/ comando
+Channel 07 Piscas ao destrancar c/ comando
+Channel 08 Piscas ao trancar c/ comando
+
+Valor (1 = ligar, 0 = desligar)
+
+[Save]
+

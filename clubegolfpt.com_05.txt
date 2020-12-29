@@ -1,0 +1,22 @@
+Se o carro possuir destrancar selectivo, ao pressionar uma vez 'destrancar' no comando
+vai abrir a porta do condutor e duas vezes vai abrir todas as portas.
+
+Para fazer todas as portas destrancar de uma vez só, subtrair 1 ao valor existente.
+
+[Select]
+[46 - Cent. Conv.] (35 - Cent. Locking para carros com vidros manuais)
+[Recode - 07]
+
+Software Coding: 0000x
+
+Anotar o 'Software Coding' existente para referencia futura.
+Alterar o ultimo digito (x) deste valor de 5-digitos de acordo com:
+
+x + 1: Abertura da porta do condutor ao premir uma vez, todas ao premir duas vezes.
+x - 1: Abertura de todas as portas ao premir uma vez.
+
+[Do It!]
+
+
+Assim, num carro que esta programado para destrancar selectivo (00259) subtrai-se 1 para ficar (00258)
+de modo que todas as portas destrancam ao premir uma vez no comando.

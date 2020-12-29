@@ -1,0 +1,35 @@
+Vamos a ir por pasos, he cojido un TDI 110cv.
+Después de conectar el cable al coche y arrancar el programa:
+
+Select-01
+Engine-01
+Login-11, aquí tenemos que introducir el código 12233
+Adaptation-10, aqui tenemos 8 grupos útiles que són los que podemos modificar:
+
+01-Fuel mixture, con un valor por defecto 32768, el máximo que fija sobre el número por defecto es 33268 y el
+máximo que fija debajo de defecto es 32268. Esto iguala un barrido del número de 500 dígitos. Aplicar un valor
+mas alto = mas rico un valor más bajo = más pobre.
+Otras características después de entrar en adaptación-10 son:
+
+02-Idle adjustment, ajustable desde 882 rpm a 945 rpm con un rango de valor de 32743 a 32803
+
+03- Mass Air Flow adjust, y en consecuencia la egr y el turbo. También se utiliza para resucitar el
+caudalímetro ya que calibramos la cantidad de aire que entra.
+
+04- Timing Adjust, o ajuste de la inyección, ajustable desde -2,6º a 7,3º con un rango de valor desde 32268 a
+33268 (si os pasais va a picar)
+
+05- Starting Conditions, esto es para el ajuste de la inyección en frio.
+
+18- Speed calibration, con un valor por defecto en 0. Sirve para calibrar la velocidad si modificamos el
+tamaño de las ruedas o para modificar los km. Lo único que está en valores negativos y decimales y no me
+entero.
+
+50- que no se que es, creo que son los datos del inmobilizador.
+Después de hacer los ajustes lo mejor es ir a los bloques de medición y comprobar que los datos introducidos
+estén dentro de los márgenes de fábrica. 
+
+Para ir bien tendrá que quedarnos asi:
+Injection quantity: entre 2.2 y 9.0 de margen y entre 2.8 y 3.5 modificado
+Air mass: 230 - 370 original y 250 - 390 modificado
+egr, presión del turbo, etc, según lo que se modifique.
